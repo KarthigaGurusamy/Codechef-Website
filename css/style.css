@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(230, 233, 236);
+}
+
+.container {
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* padding-left: 30px; */
+  padding-top: 30px;
+  padding-bottom: 40px;
+  border-radius: 3px;
+  box-shadow: 1px grey;
+}
+
+.login {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.existence {
+  padding-left: 30px;
+  font-size: medium;
+  font-family:Open Sans,serif;
+  color: #4a4a4a;
+}
+
+.socialmedia {
+  padding-left: 30px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.images {
+  display: flex;
+  height: 60px;
+  cursor: pointer;
+}
+
+.images > div {
+  height: 50px;
+  width: 50px;
+  padding-left: 30px;
+  padding-right: 60px;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.or {
+  padding-left: 30px;
+}
+
+.forms {
+  padding-left: 30px;
+}
+
+.inputs {
+  border-width: 1px;
+  border-color: lightslategray;
+  padding: 8px 75px 10px 20px;
+  border-color: lightsteelblue;
+}
+
+.loginbutton {
+  background-color: cornflowerblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 2px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.forgotpassword {
+  padding-left: 30px;
+}
+
+.help {
+  padding-left: 30px;
+  font-size: smaller;
+}
+
+.or{
+    display: flex;
+}
+
+.line{
+    height: 1px;
+    width: 100px;
+    background-color: lightsteelblue;
+    margin-top: 23px;
+
+}
+
+.or > div >p{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.line:nth-child(1)
+{
+    margin-right: 10px;
+}
+
+.line:nth-child(3)
+{
+    margin-left: 10px;
+}
